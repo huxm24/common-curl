@@ -1,0 +1,35 @@
+{
+    "name": "common-curl",
+    "type": "library",
+    "description": "common-cur is a curl library",
+    "keywords": ["common-curl","curl"],
+    "homepage": "https://www.connext.com",
+    "authors": [
+        {
+            "name": "xiaoming.hu",
+            "email": "xiaoming.hu@connext.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packagist.connext.com"
+        }
+    ],
+    "config": {
+        "process-timeout": 1800,
+        "secure-http" :false
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "~6.0",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CommonCurl\\": "src"
+        }
+    }
+}

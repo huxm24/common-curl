@@ -1,0 +1,19 @@
+{
+    "name": "webtech/common-cur",
+    "description": "common-cur is a webtool library\u001b[C",
+    "type": "library",
+    "require": {
+        "php": "~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaoming.hu",
+            "email": "xiaoming.hu@connext.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
